@@ -10,5 +10,20 @@ const employees = [
     hobbies: ["Cryptocurrency", "Social media"],
   },
 ];
+let objectAlicia = {
+    name: "Alicia",
+    age: 29,
+    hobbies: ["Shopping", "Reading novels"]
+  };
+let objectKody = {
+    name: "Kody",
+    age: 19,
+    hobbies: ["Computer games", "Wakeboard"]
+  };
 
-// Start coding here
+  employees.push(objectAlicia);
+  employees.push(objectKody);
+
+  console.log(employees)
+
+
